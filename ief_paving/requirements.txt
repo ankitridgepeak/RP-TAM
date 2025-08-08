@@ -1,0 +1,23 @@
+# Core
+requests==2.32.3
+pandas==2.2.2
+pydantic==2.8.2
+python-dotenv==1.0.1
+rapidfuzz==3.9.6
+phonenumbers==8.13.40
+tldextract==5.1.2
+duckdb==1.0.0
+PyYAML==6.0.2
+
+# Web discovery
+httpx==0.27.0
+aiohttp==3.9.5
+cdx_toolkit==0.9.8
+beautifulsoup4==4.12.3
+lxml==5.2.2
+trafilatura==1.9.0
+aiolimiter==1.1.0
+
+# UI / IO
+streamlit==1.36.0
+pyarrow==16.1.0

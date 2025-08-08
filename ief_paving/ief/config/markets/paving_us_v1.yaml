@@ -1,0 +1,13 @@
+market_id: paving_us_v1
+name: Paving Contractors (US)
+naics_seeds: ["237310", "238990", "238110"]
+include_terms: ["paving", "asphalt", "sealcoat", "sealcoating", "chip seal", "mill", "overlay", "driveway", "parking lot"]
+exclude_terms: ["roofing", "ready-mix", "cement plant", "quarry", "landscaping", "line striping only", "polishing"]
+platform_categories:
+  osm_name_regex: "(paving|asphalt|sealcoating)"
+license_filters:
+  states:
+    TX: ["TxDOT Prequalified: HMAC Paving", "Concrete Paving"]
+    MI: ["MDOT Prequalified: HMA Paving", "Concrete Paving"]
+    CO: ["CDOT Prequalified: Asphalt Paving", "Concrete Paving"]
+refresh_cadence_days: 21
